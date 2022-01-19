@@ -500,7 +500,7 @@ let name: String = person.name
 *Preferred:*
 
 ```swift
-var people = [Person]()
+var people: [Person] = []
 ```
 
 *Not Preferred:*
