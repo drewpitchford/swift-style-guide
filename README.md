@@ -1,6 +1,6 @@
-![Metova Swift Style Guide](images/metova.png)
+![Backstage Swift Style Guide](images/metova.png)
 
-# Metova's Swift Style Guide
+# Backstage's Swift Style Guide
 
 This style guide is written primarily with the development of iOS and OS X applications using the Xcode IDE in mind.  As such, many of the guidelines found within are based around consistency with Apple's frameworks & Xcode's default preferences.  If you are developing with Swift using different frameworks, or a different IDE, you may find sections of this style guide to be less applicable.
 
@@ -65,6 +65,26 @@ Closing braces should always be on a new line by themselves, horizontally aligne
 ---
 
 ### Control Flow
+
+
+#### Put each conditional logic statement on a new line for control flow statements
+
+*Preferred:*
+
+```
+if condition1,
+			condition2 {
+				// execute some code
+			}
+```
+
+*Not Preferred:*
+
+```
+if condition1, condition2 {
+    // execute some code
+}
+```
 
 ##### Omit unnecessary parenthesis around control flow statements.
 
