@@ -73,9 +73,9 @@ Closing braces should always be on a new line by themselves, horizontally aligne
 
 ```
 if condition1,
-			condition2 {
-				// execute some code
-			}
+   condition2 {
+   // execute some code
+}
 ```
 
 *Not Preferred:*
