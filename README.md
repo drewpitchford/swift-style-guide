@@ -1,4 +1,4 @@
-![Backstage Swift Style Guide](images/metova.png)
+![Backstage Swift Style Guide](images/backstage.png)
 
 # Backstage's Swift Style Guide
 
@@ -769,11 +769,11 @@ var colour: UIColor
 
 ## Swiftlint
 
-Metova uses [swiftlint](https://github.com/realm/SwiftLint) to enforce as much of this style guide as possible across all Swift projects.  This repository also contains [the swiftlint configuration](.swiftlint.yml) file Metova uses for its projects.  
+Backstage uses [swiftlint](https://github.com/realm/SwiftLint) to enforce as much of this style guide as possible across all Swift projects.  This repository also contains [the swiftlint configuration](.swiftlint.yml) file Backstage uses for its projects.  
 
 ## Credits
 
-This style guide is a collaborative effort from members of the [Metova](https://metova.com) iOS team.
+This style guide was forked from the [Metova](https://metova.com) style guide repo on Github.
 
 * [Nick Griffith](https://github.com/nhgrif) - Original author of this document
 * [Logan Gauthier](https://github.com/lgauthier) - Primary maintainer of Metova's original Swift style guide
